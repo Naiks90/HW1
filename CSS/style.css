@@ -14,3 +14,11 @@ article.power {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+a {
+    color: purple;
+}
+
+a:hover {
+    color: aqua;
+}
