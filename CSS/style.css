@@ -1,7 +1,3 @@
-article.power {
-    color: rgb( 255, 0, 255);
-}
-
 .visually-hidden:not(:focus):not(:active) {
     position: absolute;
     width: 1px;
@@ -13,4 +9,50 @@ article.power {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+}
+
+.list {
+    list-style-type: none;
+    padding: 70px 70px 70px 165px;
+}
+
+.list-item {
+    color: #626262;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 174px;
+    text-transform: uppercase;
+}
+
+.list-item:hover {
+    color: #03a9f4;
+}
+
+.wraper {
+    width: 1200px;
+    background-color: chartreuse;
+    margin: auto;
+}
+
+.list li {
+    display: inline-block;
+}
+
+.page {
+    list-style-type: none;
+}
+
+.page-item {
+    display: inline-block;
+    width: 420px;
+}
+
+main {
+    padding: 0px 150px 0 150px;
 }
