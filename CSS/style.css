@@ -13,6 +13,7 @@
     
     body {
         font-family: 'Playfair Display', serif;
+        line-height: 24px;
         color: #626262;
     }
     
@@ -36,7 +37,7 @@
     
     .wraper {
         width: 1200px;
-        background-color: chartreuse;
+        /* background-color: chartreuse; */
         margin: auto;
     }
     
@@ -46,6 +47,8 @@
     
     .page {
         list-style-type: none;
+        padding-left: 0px;
+        margin-right: -4px;
     }
     
     .page-item {
@@ -53,6 +56,32 @@
         width: 420px;
     }
     
+    .page-item:nth-child(2n+1) {
+        margin-right: 60px;
+    }
+    
     main {
         padding: 0px 150px 0 150px;
+    }
+    
+    .page-text {
+        font-family: 'ubuntu', serif;
+        font-size: 14px;
+        line-height: 17px;
+        text-transform: uppercase;
+        color: #b4ad9e;
+    }
+    
+    h2 {
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 400px;
+    }
+    
+    button {
+        background-color: chartreuse;
+        font-size: 20px;
+        line-height: 24px;
+        display: inline-block;
+        margin: auto;
     }
